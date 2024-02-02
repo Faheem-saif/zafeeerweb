@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Vazirmatn");
+
+
+.heading{
+    font-family: Vazirmatn;
+    font-size: 40px;
+}
+p{
+ font-family: 'Times New Roman', Times, serif;   
+}
+.heading span {
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .blue {
+    color: blue;
+  }
+  
+  .orange {
+    color: orange;
+  }
+  
+  .black {
+    color: black;
+  }
+  
+  @media (max-width: 595px) {
+    .heading {
+      font-size: 33px;
+    }
+  }
