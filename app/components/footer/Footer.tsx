@@ -22,7 +22,10 @@ export default function Footer() {
                   <li><Link href={"/services/videoEditing"}>Video Editing</Link></li>
                   <li>  <Link href={"/services/seo"}>SEO</Link></li>
                   <li><Link href={"/services/contantWriting"}>Contant Writing</Link></li>
-                  <li>  <Link href={"/taskDetails/customTask"}>Custom Tasks</Link></li>
+                  <li>    <Link legacyBehavior href={"/taskDetails/customTask"}>
+                    <a target="_blank">Cutom Task</a>
+                  </Link>
+                  </li>
                 </nav>
               </div>
               <div className="lg:w-1/3 md:w-1/2 w-full px-4">
