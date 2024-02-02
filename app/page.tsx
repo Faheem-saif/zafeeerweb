@@ -1,5 +1,4 @@
 
-import HomePageHeading from "./components/homePageHeading/HomePageHeading";
 import HeroHomePage from "./components/hero/HeroHomePgae";
 import OurServices from "./components/ourServices/OurServices";
 import ShortIntro from "./components/shortIntro/ShortIntro";
@@ -7,11 +6,13 @@ import Processes from "./components/process/Processes";
 import WeOffer from "./components/weOffer/WeOffer";
 import Testimonial from "./components/testimonial/Testimonial";
 import Badge from "./components/badges/Badge";
+import HomePageHeading from "./components/formBanner/homePageHeading/HomePageHeading";
 
 export default function Home() {
 
   return (
     <>
+    
 
       <div className="mt-7 bg-white">
         <HomePageHeading />

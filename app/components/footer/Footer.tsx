@@ -42,8 +42,8 @@ export default function Footer() {
                   <li>   <Link href={"/taskDetails/seo"}>
                     <div>SEO / marketing</div>
                   </Link></li>
-                  <li>    <Link href={"/taskDetails/customTask"}>
-                    <div >Cutom Task</div>
+                  <li>    <Link legacyBehavior href={"/taskDetails/customTask"}>
+                    <a target="_blank">Cutom Task</a>
                   </Link>
                   </li>
                 </nav>
