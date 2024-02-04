@@ -25,6 +25,7 @@ export default function Home() {
       </div>
       <div className="bg-[#F8F9FB] px-4 py-5">
         <OurServices />
+        
       </div>
       <div className=" bg-[#F8F9FB]  py-5 mb-3">
         <Badge />

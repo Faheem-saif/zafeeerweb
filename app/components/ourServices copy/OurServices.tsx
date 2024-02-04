@@ -33,7 +33,7 @@ export default function OurServicesForChange() {
                         {/* </div>
                     <div className="md:grid md:grid-cols-subgrid md:gap-4 md:col-span-3"> */}
                         <div>
-                            <Link href={"/taskDetails/customTask"}>
+                            <Link href={"/taskDetails/customTask"}  >
                                 <CardService animation="fade-up" src="https://firebasestorage.googleapis.com/v0/b/unipixeldata.appspot.com/o/image%209.png?alt=media&token=dc74828a-82a5-4e3e-b7d4-a1a5d5721fbc" heading="Custom Task" /></Link>
                         </div>
                     </div>
